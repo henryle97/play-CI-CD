@@ -104,6 +104,9 @@ def collect_env():
 
     env_info['PyTorch'] = torch.__version__
 
+
+
+
     try:
         import torchvision
         env_info['TorchVision'] = torchvision.__version__
