@@ -103,7 +103,6 @@ def collect_env():
         env_info['GCC'] = 'n/a'
 
     env_info['PyTorch'] = torch.__version__
-    # env_info['PyTorch compiling details'] = get_build_config()
 
     try:
         import torchvision
